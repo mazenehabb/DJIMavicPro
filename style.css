@@ -42,7 +42,7 @@ border-radius: 8px;
 padding: 10px;
 color: white;
 }
-.logo span{
+.logo .logo-text{
     font-family: "Google Sans Flex", sans-serif;
     padding-left: 10px;
     font-size: 24px;
@@ -554,6 +554,7 @@ border-radius: 20px;
 .card-list-flex{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 .review-card{
@@ -630,5 +631,247 @@ color: rgb(51, 51, 51);
     font-weight: 400;
     color: rgb(51, 51, 51);
 }
+.button-review{
+    margin-top: 30px;
+}
+.button-review button{
+     padding: 15px 30px;
+     background-color: #7F22FE;
+     color: #FFFFFF;
+     font-size: 16px;
+     line-height: 24px;
+     font-weight: 600;
+     border: none;
+     border-radius: 50px;
+
+}
 /* End Customars Section */
 /* Test */
+
+
+/* Start Setup Section */
+.accessory{
+    background-color: #F7F5FF;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.accessory-h{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+.accessory-h span{
+    color: #7F22FE;
+}
+.accessory-p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+.cards-products-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-product{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #E5E7EB;
+}
+.card-product img{
+    
+    border-radius: 20px;
+}
+.card-product .img-card{
+    position: relative;
+    /* background-color: #00C950; */
+    width: 100%;
+    margin: auto;
+}
+.img-card .desctiption-img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ffffff;
+     padding: 6px 10px;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.Teal-span{
+    background-color: #00BBA7;
+}
+.greent-span{
+    background-color: #00C950;
+}
+.blue-span{
+    background-color: #00B8DB;
+}
+.red-span{
+    background-color: #FF6900;
+}
+.head-product{
+   margin-bottom: 0;
+   margin-left: 5px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.pargragh-product{
+    margin: 10px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+.price-button-product{
+    /* background-color: #8E51FF; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-button-product span{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.price-button-product button{
+    background-color: #8E51FF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+.button-more-product{
+    display: flex;
+    justify-content: center;
+}
+.button-more-product button{
+    margin-top: 70px;
+    background-color: transparent;
+    border: 2px solid #7F22FE;
+    color: #7F22FE;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 15px 25px;
+
+}
+/* End Setup Section */
+
+/* Start Footer */
+.footer{
+    background-color: #101828;
+    padding-top: 50px;
+    color: #ffffff;
+}
+.footer .flex-parent{
+display: flex;
+flex-wrap: wrap;
+}
+.footer .flex-child1{
+width: 50%;
+display: flex;
+justify-content: space-between;
+/* background-color: wheat; */
+}
+.dji{
+    color: white;
+    font-family: "Google Sans Flex", sans-serif;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+/* .footer .flex-child1{
+    background-color: red;
+} */
+.footer .flex-chilid1-child1{
+width: 45%;
+}
+.pargragh-footer{
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+.icons{
+    background-color: #1E2939;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+    /* padding-bottom: 15px; */
+}
+.product-links-footer{
+    width: 45%;
+    /* background-color: #00BBA7; */
+    padding-left: 50px;
+
+}
+.product-links-footer p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    /* background-color: red; */
+    margin: 5px 0;
+    
+}
+.product-links-footer ul{
+    list-style: none;
+    /* background-color: red; */
+    padding: 0;
+}
+.product-links-footer ul li{
+    /* background-color: green; */
+    margin-left: 0;
+    padding-bottom: 10px ;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(178, 177, 177);
+}
+.flex-child2{
+width: 45%;
+/* background-color: #00BBA7; */
+}
+.flex-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.policy{
+    border-top: 0.6px solid #1E2939;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #00C950; */
+}
+.policy p{
+    padding: 30px 0;
+}
+.img-payment{
+    /* background-color: red; */
+    padding: 30px 0;
+}
+.img-payment .bg-white{
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left:20px ;
+}
